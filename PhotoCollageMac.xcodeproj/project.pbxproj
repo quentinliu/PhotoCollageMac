@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF72C296FD98A45AEC749EC /* PhotoCollageMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0624E6489190A26331C673E /* PhotoCollageMacApp.swift */; };
+		44D4618476C9E0096622BB96 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6623A2174EB36D7EB27C9 /* HomeView.swift */; };
+		5E8C267C4ED1987F6CFF33DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA63AD7BF48B411D8D7E89 /* ContentView.swift */; };
+		60EB3F3619BEFDF4F07AC138 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31A6132238E1A3C5C1EB89 /* TemplatesView.swift */; };
+		B358C8D12BFA59309B2C7F74 /* PhotoCollageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CA01B4B83C356399149E2 /* PhotoCollageEngine.swift */; };
+		FE206F84F39BE30284865012 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89EB586F3E1B91724469B0 /* CreateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D89EB586F3E1B91724469B0 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		1E42148DDBC4A7AE14C93F90 /* PhotoCollageMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoCollageMac.entitlements; sourceTree = "<group>"; };
+		457CA01B4B83C356399149E2 /* PhotoCollageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollageEngine.swift; sourceTree = "<group>"; };
+		477BA094096D52F520424B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5AD6623A2174EB36D7EB27C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5FA87DF218E4593FDD218AF6 /* PhotoCollageMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollageMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C31A6132238E1A3C5C1EB89 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		CEBA63AD7BF48B411D8D7E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0624E6489190A26331C673E /* PhotoCollageMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollageMacApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03D2B11240601E7F4DB0CD9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				457CA01B4B83C356399149E2 /* PhotoCollageEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F220BE951FE29F69FB747E8 = {
+			isa = PBXGroup;
+			children = (
+				62091AA7EDA1DF8B707D30E0 /* Resources */,
+				7420C115DEDE0B45FBC3A203 /* Sources */,
+				F662019E2B985EA7B5FE54C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62091AA7EDA1DF8B707D30E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				477BA094096D52F520424B71 /* Info.plist */,
+				1E42148DDBC4A7AE14C93F90 /* PhotoCollageMac.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7420C115DEDE0B45FBC3A203 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D1A00007D2B0A816E40182E8 /* App */,
+				03D2B11240601E7F4DB0CD9C /* Models */,
+				E7BF9A52054764937EF6DB61 /* Utilities */,
+				92CD9293CD45E638D6B8A7F9 /* Views */,
+			);
+			name = Sources;
+			path = PhotoCollageMac/Sources;
+			sourceTree = "<group>";
+		};
+		92CD9293CD45E638D6B8A7F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA63AD7BF48B411D8D7E89 /* ContentView.swift */,
+				1D89EB586F3E1B91724469B0 /* CreateView.swift */,
+				5AD6623A2174EB36D7EB27C9 /* HomeView.swift */,
+				7C31A6132238E1A3C5C1EB89 /* TemplatesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1A00007D2B0A816E40182E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0624E6489190A26331C673E /* PhotoCollageMacApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E7BF9A52054764937EF6DB61 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F662019E2B985EA7B5FE54C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA87DF218E4593FDD218AF6 /* PhotoCollageMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5922C536E3381337C1D38C /* PhotoCollageMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F50BA6BB0261F3E413F973 /* Build configuration list for PBXNativeTarget "PhotoCollageMac" */;
+			buildPhases = (
+				3EE1B62BB7FE75D72BE9C779 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoCollageMac;
+			packageProductDependencies = (
+			);
+			productName = PhotoCollageMac;
+			productReference = 5FA87DF218E4593FDD218AF6 /* PhotoCollageMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1898FD99D80D1CEE2F60EB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE5922C536E3381337C1D38C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F42FF4BE9BE8926D7F004F80 /* Build configuration list for PBXProject "PhotoCollageMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3F220BE951FE29F69FB747E8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5922C536E3381337C1D38C /* PhotoCollageMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE1B62BB7FE75D72BE9C779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8C267C4ED1987F6CFF33DE /* ContentView.swift in Sources */,
+				FE206F84F39BE30284865012 /* CreateView.swift in Sources */,
+				44D4618476C9E0096622BB96 /* HomeView.swift in Sources */,
+				B358C8D12BFA59309B2C7F74 /* PhotoCollageEngine.swift in Sources */,
+				0BF72C296FD98A45AEC749EC /* PhotoCollageMacApp.swift in Sources */,
+				60EB3F3619BEFDF4F07AC138 /* TemplatesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05ADA2B3A2BD815E9B40499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		09D2B06C23AD85E935DB7777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		8E34F6BED9DFC8CB340F638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/PhotoCollageMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photocollage.mac;
+				PRODUCT_NAME = PhotoCollageMac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1712CE45465646994E16399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/PhotoCollageMac.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photocollage.mac;
+				PRODUCT_NAME = PhotoCollageMac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F50BA6BB0261F3E413F973 /* Build configuration list for PBXNativeTarget "PhotoCollageMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E34F6BED9DFC8CB340F638A /* Debug */,
+				A1712CE45465646994E16399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F42FF4BE9BE8926D7F004F80 /* Build configuration list for PBXProject "PhotoCollageMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D2B06C23AD85E935DB7777 /* Debug */,
+				05ADA2B3A2BD815E9B40499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1898FD99D80D1CEE2F60EB5E /* Project object */;
+}
