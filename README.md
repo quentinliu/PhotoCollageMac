@@ -84,7 +84,7 @@ PhotoCollageMac/
 
 ## 许可证
 
-MIT License - 查看 [LICENSE](LICENSE) 文件
+Apache License 2.0 - 查看 [LICENSE](LICENSE) 文件
 
 ## 贡献
 
